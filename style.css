@@ -1,0 +1,67 @@
+html{
+    height: 100%;
+}
+
+h1, h2, p{
+    margin-top: 0;
+}
+
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #25f5b0, #96ff54);
+    background-attachment: fixed;
+}
+
+.container{
+    margin: 0;
+    max-width: 600px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 70px;
+    box-shadow: 0px 15px 5px 5px rgba(0,0,0,0.4);
+}
+
+.players{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scoreVal{
+    padding: 20px;
+    background-color: rgb(248, 214, 185);
+    font-size: 60px;
+    font-weight: 900;
+    border-radius: 10px;
+}
+
+#rollBtn,
+#again{
+    display: inline-block;
+    margin-right: 40px;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #faa5c0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#rollBtn:hover,
+#rollBtn:focus,
+#again:hover,
+#again:focus{
+    color: #faa5c0;
+    background-color: #fff;
+}
+
+.winner{
+    box-shadow: 0px 15px 5px 5px rgba(0,0,0,0.4);
+}
